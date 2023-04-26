@@ -1,0 +1,6 @@
+import{_ as n,X as a,Y as s,a2 as e}from"./framework-e053119e.js";const o="/fast-request/img/otherConfig_en.png",t={},c=e(`<p>Controller url fixed variable can replace by config. For example controller like this</p><div class="language-java" data-ext="java"><pre class="language-java"><code><span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/api/\${api-module}/user&quot;</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Controller</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">XxxController</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token comment">//code ...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>The actual url is <code>/api/base/user</code>,Then <code>\${api-module}</code> can be replaced by the following configuration</p><p><img src="`+o+'" alt="" loading="lazy"></p>',4),p=[c];function l(i,r){return a(),s("div",null,p)}const d=n(t,[["render",l],["__file","otherConfig.html.vue"]]);export{d as default};
